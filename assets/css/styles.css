@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+/* :root {
+} */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* common */
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  min-width: 108px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+.break-all {
+  word-break: break-all;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  color: #0d1111;
+  font-weight: 700;
+  line-height: 1.16;
+}
+.heading.lv1 {
+  font-size: 5.8rem;
+  line-height: 1.17;
+}
+.heading.lv2 {
+  font-size: 3.8rem;
+  line-height: 1.26;
+}
+/* header */
+
+.header.fixed {
+  position: sticky;
+  top: -44px;
+  z-index: 1;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 52px 0 6.9px;
+}
+.navbar {
+  margin-left: auto;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar a {
+  padding: 6.9px 19.5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2f3a3b;
+}
+.header .action {
+  margin-left: 177px;
+}
+.header .sign-in-btn {
+  color: #494949;
+  font-weight: 400;
+}
+.header .sign-up-btn {
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+}
+/* hero */
+.hero {
+  padding: 50px 0 70px;
+}
+.hero .body {
+  display: flex;
+}
+/* hero left */
+.hero .hero-left .title {
+  margin-top: 93px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #767e7e;
+}
+.hero .hero-left .heading {
+  margin: 18px 136px 0 0;
+  width: 458px;
+}
+.hero .hero-left .desc {
+  width: 374px;
+  margin-top: 46px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+  color: #9da6a5;
+}
+
+/* hero right */
+.hero .hero-right {
+  width: 49%;
+}
+.hero .hero-right .images {
+  width: 576px;
+  height: 631px;
+}
+.hero .cta-hero {
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+}
+.hero .cta-hero .hero-btn {
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+.hero .cta-hero a.hero-btn:hover {
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .play {
+  margin-left: 50px;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background: #1ebfc1;
+  border-radius: 50%;
+}
