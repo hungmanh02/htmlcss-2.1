@@ -78,7 +78,14 @@ a {
 }
 .navbar a {
   padding: 6.9px 19.5px;
+  font-weight: 400;
   font-size: 1.6rem;
+  color: #2f3a3b;
+}
+.navbar a.active {
+  font-weight: 600;
+}
+.navbar a:hover {
   font-weight: 600;
   color: #2f3a3b;
 }
@@ -120,15 +127,6 @@ a {
   line-height: 1.78;
   color: #9da6a5;
 }
-
-/* hero right */
-.hero .hero-right {
-  width: 49%;
-}
-.hero .hero-right .images {
-  width: 576px;
-  height: 631px;
-}
 .hero .cta-hero {
   display: flex;
   align-items: center;
@@ -146,11 +144,109 @@ a {
 .hero .cta-hero a.hero-btn:hover {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
-.hero .play {
+.cta-hero .play {
+  display: flex;
   margin-left: 50px;
-  display: inline-block;
   width: 62px;
   height: 62px;
-  background: #1ebfc1;
   border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+.cta-hero .play:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+.cta-hero .play img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+/* hero right */
+.hero .hero-right {
+  position: relative;
+  width: 49%;
+}
+.hero .hero-right .images {
+  width: 576px;
+  height: 631px;
+}
+.courses {
+  position: absolute;
+  display: flex;
+  top: 149px;
+  left: -40px;
+  align-items: center;
+  border-radius: 18px;
+  padding: 17px 25px 18px;
+  width: 157px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.courses .label {
+  width: 55px;
+  color: #0d1111;
+  margin-left: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.schedules {
+  position: absolute;
+  top: 453px;
+  left: -65px;
+  width: 124px;
+  padding: 16px 25px 23px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.schedules .label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0d1111;
+}
+.schedules .icon {
+  text-align: center;
+}
+.schedules .icon img:nth-of-type(1) {
+  margin-top: 16px;
+}
+.schedules .icon img:nth-of-type(2) {
+  margin-top: 8px;
+}
+.students {
+  padding: 17px 35px;
+  width: 207px;
+  position: absolute;
+  right: 45px;
+  top: 500px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.students .label {
+  color: #0d1111;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.students .avatar-group {
+  display: flex;
+  margin-top: 8px;
+}
+.students .avatar-group .avatar {
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: #fff;
+  background: var(--bg-color, #fff);
+}
+.students .avatar span {
+  font-size: 1.2rem;
+  padding: 9px;
 }
