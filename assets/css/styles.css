@@ -40,7 +40,7 @@ a {
 }
 .main-content {
   width: 1170px;
-  max-width: calc(100% - 48px);
+  max-width: calc(100vw - 48px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,14 +54,15 @@ a {
   line-height: 1.17;
 }
 .heading.lv2 {
-  font-size: 3.8rem;
-  line-height: 1.26;
+  font-size: 4.2rem;
+  line-height: 1.33;
 }
 /* header */
 
 .header.fixed {
   position: sticky;
   top: -44px;
+  background: #fff;
   z-index: 1;
 }
 
@@ -249,4 +250,95 @@ a {
 .students .avatar span {
   font-size: 1.2rem;
   padding: 9px;
+}
+/* features */
+.features .content {
+  width: 1024px;
+  padding: 65px 0;
+}
+.features .info .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #767e7e;
+}
+.features .info .heading {
+  margin: 18px 0;
+  width: 577px;
+  color: #0d1111;
+  font-weight: 700;
+}
+.features .info .desc {
+  width: 590px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #767e7e;
+}
+/* features list icon */
+.features .list-item {
+  margin-top: 80px;
+  display: flex;
+}
+.features .list-item .item:nth-child(2) {
+  margin-left: 209px;
+}
+.features .list-item .item:nth-child(3) {
+  margin-left: 200px;
+}
+.features .item img {
+  width: 102px;
+  height: 106px;
+}
+.features .item .title {
+  margin-top: 26px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0d1111;
+}
+.features .item .desc {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69;
+  color: #9da6a5;
+}
+.features .list-item .desc:first-child {
+  width: 168px;
+}
+.features .list-item .desc:nth-child(2) {
+  width: 223px;
+}
+.features .list-item .desc:nth-child(3) {
+  width: 224px;
+}
+/* populars */
+.populars {
+  padding: 65px 0;
+}
+.populars .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #767e7e;
+}
+.populars .info .heading {
+  margin-top: 18px;
+}
+.populars .view-coures {
+  display: flex;
+  margin-top: 19px;
+  align-items: center;
+  justify-content: space-between;
+}
+.populars .view-coures .desc {
+  width: 525px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+  color: #767e7e;
+}
+/* popular courses list */
+.populars .popular-list {
+  display: flex;
+}
+.populars .course-item {
+  width: 33.33%;
 }
