@@ -141,8 +141,8 @@ a {
   min-width: 186px;
   line-height: 68px;
   border-radius: 14px;
-  background: #1ebfc1;
   font-size: 1.8rem;
+  background: #1ebfc1;
   font-weight: 600;
   color: #fff;
 }
@@ -446,6 +446,7 @@ a {
 /* === feebacks === */
 .feebacks {
   margin-top: 64px;
+  padding-bottom: 65px;
 }
 .feebacks .feeback-content {
   display: flex;
@@ -542,3 +543,32 @@ a {
   bottom: 29px;
 }
 /* === feebacks === */
+/* === Get stats === */
+.get-stats {
+  margin-top: 65px;
+  background: #def6f5;
+}
+.get-stats .stats-info {
+  display: flex;
+  align-items: center;
+}
+.get-stats .ready {
+  padding: 76px 0 88px;
+}
+.get-stats .ready .desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #767e7e;
+}
+.get-stats .stats-info .stats-btn {
+  margin-left: 451px;
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  font-size: 1.8rem;
+  background: #1ebfc1;
+  font-weight: 600;
+  color: #fff;
+}
+/* === Get stats === */
