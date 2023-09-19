@@ -449,8 +449,6 @@ a {
 }
 .feebacks .feeback-content {
   display: flex;
-  /* height: 481px; */
-  background: orange;
 }
 .feebacks .feeback-info {
   padding: 37px 0;
@@ -474,6 +472,28 @@ a {
   font-size: 1.6rem;
   font-weight: 500;
   color: #070707;
+}
+.feebacks .feeback-control {
+  margin-top: 52px;
+}
+.feebacks .link-control {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #2ac9bf;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.feebacks .link-control:hover {
+  transform: scale(0.9);
+}
+.feebacks .link-control img {
+  width: 6px;
+  height: 12px;
 }
 /* block images */
 .feebacks .block-images {
