@@ -339,6 +339,12 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.populars .view-coures a {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
 .populars .view-coures .desc {
   width: 525px;
   font-size: 1.8rem;
