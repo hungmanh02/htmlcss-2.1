@@ -188,6 +188,12 @@ a {
   background: #fefefd;
   box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
 }
+.courses .icon img:nth-child(2) {
+  position: absolute;
+  top: 45px;
+  left: 29px;
+}
+
 .courses .label {
   width: 55px;
   color: #0d1111;
@@ -602,6 +608,9 @@ a {
 .footer .footer-column:nth-child(2) .heading,
 .footer .footer-column:nth-child(3) .heading {
   margin-bottom: 6px;
+}
+.footer .footer-column:nth-child(3) .info {
+  width: 157px;
 }
 
 .footer .lv4 {
