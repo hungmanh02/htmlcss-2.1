@@ -330,7 +330,7 @@ a {
   font-weight: 700;
   color: #767e7e;
 }
-.populars .info .heading {
+.populars .info .heading.lv2 {
   margin-top: 18px;
 }
 .populars .view-coures {
@@ -385,6 +385,9 @@ a {
   border-radius: 8px;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
+/* .popular-list .info-course .heading {
+  margin-top: 0;
+} */
 .popular-list .info-course .number {
   margin-top: 16px;
   font-size: 1.6rem;
