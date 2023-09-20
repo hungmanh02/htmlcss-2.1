@@ -195,11 +195,10 @@ a {
 }
 
 .courses .label {
-  font-family: "Poppins";
   width: 55px;
   color: #0d1111;
   margin-left: 16px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 .schedules {
@@ -213,7 +212,7 @@ a {
   box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
 }
 .schedules .label {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: #0d1111;
 }
@@ -237,10 +236,10 @@ a {
   box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
 }
 .students .label {
-  color: #0d1111;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: 500;
+  color: #0d1111;
 }
 .students .avatar-group {
   display: flex;
@@ -282,6 +281,7 @@ a {
 .features .info .desc {
   width: 590px;
   font-size: 1.8rem;
+  line-height: 1.6;
   font-weight: 400;
   color: #767e7e;
 }
@@ -386,9 +386,9 @@ a {
   border-radius: 8px;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
-/* .popular-list .info-course .heading {
-  margin-top: 0;
-} */
+.popular-list .info-course .heading a {
+  color: #0d1111;
+}
 .popular-list .info-course .number {
   margin-top: 16px;
   font-size: 1.6rem;
