@@ -248,6 +248,7 @@ a {
   align-items: center;
   justify-content: center;
   font-weight: 400;
+  object-fit: cover;
   color: #fff;
   background: var(--bg-color, #fff);
 }
@@ -572,3 +573,58 @@ a {
   color: #fff;
 }
 /* === Get stats === */
+/* === Footer === */
+.footer {
+  padding: 65px 0;
+  margin-top: 65px;
+}
+
+.footer .main-content {
+  display: flex;
+}
+.footer .footer-list {
+  display: flex;
+  gap: 144px;
+}
+.footer .footer-column .info {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #535353;
+  margin: 20px 0;
+}
+
+.footer .footer-column:first-child {
+  margin-left: 144px;
+}
+.footer .footer-column:first-child .heading {
+  margin-bottom: 5px;
+}
+.footer .footer-column:nth-child(2) .heading,
+.footer .footer-column:nth-child(3) .heading {
+  margin-bottom: 6px;
+}
+
+.footer .lv4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+.footer .footer-column-social .social {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+}
+.footer .footer-column-social .info {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #535353;
+  margin-left: 9px;
+}
+.copy-right {
+  margin: 15px 0 50px 0;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+/* === Footer === */
